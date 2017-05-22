@@ -15,6 +15,22 @@ class _22_Fold {
                 customer(reka, Budapest,
                         order(idea),
                         order(youTrack)
+                ),
+                customer(reka, Budapest,
+                        order(idea),
+                        order(youTrack)
+                ),
+                customer(reka, Budapest,
+                        order(idea),
+                        order(youTrack)
+                ),
+                customer(reka, Budapest,
+                        order(idea),
+                        order(youTrack)
+                ),
+                customer(reka, Budapest,
+                        order(idea),
+                        order(youTrack)
                 )
         )
         assertEquals(setOf(idea), testShop.getSetOfProductsOrderedByEveryCustomer())
